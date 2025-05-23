@@ -1,0 +1,48 @@
+.invoice-list-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-list-container h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.invoice-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.invoice-list-container th,
+.invoice-list-container td {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.invoice-list-container th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #374151;
+}
+
+.invoice-list-container td {
+  color: #4b5563;
+}
+
+.invoice-list-container a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.invoice-list-container a:hover {
+  text-decoration: underline;
+}
