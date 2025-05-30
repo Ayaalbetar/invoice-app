@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./InvoiceHeader.css";
 
-export default InvoiceHeader  = () => {
+export default function InvoiceHeader () {
   return (
     <header className="header">
       <h1>Invoice Generator</h1>
