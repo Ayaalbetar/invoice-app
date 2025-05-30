@@ -11,7 +11,7 @@ function App() {
       <div>
         <InvoiceHeader />
         <div className="p-4">
-          <Routes>
+          <Routes basename="/invoice-app">
            
             <Route path="/create" element={<InvoiceCreate />} />
             <Route path="/invoices" element={<InvoiceList />} />
